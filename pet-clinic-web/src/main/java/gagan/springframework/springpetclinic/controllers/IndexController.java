@@ -8,6 +8,7 @@ public class IndexController {
 
     @RequestMapping({"","/","index","index.html"})
     public String index() {
+        System.out.println("Hellio");
         return "index";
     }
 }
